@@ -1,0 +1,659 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:#42455a;
+}
+
+header
+{
+    height:50px;
+    width:100%;
+}
+
+.logo
+{
+
+    margin:5px;
+    position:absolute;
+    left:8%;
+    top:12px;
+   
+}
+
+.logo i
+{
+    width:30px;
+    height:30px;
+    font-size:30px;
+    color:white;
+    align-items: center;
+    justify-content:center;
+}
+
+
+
+.nav_bar
+{
+    width:40%;
+    height:30px;
+    position:relative;
+    left:15%;
+    top:10px;
+    
+    
+}
+
+.nav_bar a
+{   
+    position:relative;
+    top:10px;
+    text-decoration:none;
+    color:#b2b1b1;
+    cursor:pointer;
+    margin-left:20px;
+    
+    
+    
+    
+    
+}
+
+.nav_bar a:after{
+    
+    content:"";
+    position:absolute;
+    background-color: #19d7f8;
+    height:3px;
+    width:0;
+    left:0;
+    bottom:-8px;
+    transition: width 0.3s ease-out;
+    
+    
+}
+.nav_bar a:hover
+{
+    color:white;
+}
+.nav_bar a:hover:after
+{
+    width:100%;
+    
+    
+    
+}
+
+
+   
+.sign-btn
+{
+   position:absolute;
+   top:10px;
+   right:10%;
+   margin:10px;
+   color:#b2b1b1;
+    height:4%; 
+    width:6%; 
+   
+    
+}
+
+.login
+{
+    right:-105%;
+}
+
+.signup:hover
+{
+    background:linear-gradient(to right, #c43c5e, #0950d4b7);
+}
+
+
+.login:hover
+{
+    background:linear-gradient(#fd00da, #19d7f8);
+
+}
+
+
+.image img
+{
+
+    height:450px;
+    width:600px;
+    position:absolute;
+    right:10%;
+    top:200px;
+    
+
+}
+
+
+    
+    
+     
+.sign-btn a {
+    text-decoration:none;
+    background: transparent;
+    color:black;
+    padding: 10px 10px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border: 2px solid;
+    position:absolute;
+    border-image: linear-gradient(to right, #fd00da, #19d7f8) 1 stretch;
+    background-color: #42455a;
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    
+}
+
+.text pre{
+    position:absolute;
+    top:30%;
+    
+    color:white;
+    
+}
+
+
+.text p{
+    
+    height:20%;
+    width:30%;
+    position:absolute;
+    top:45%;
+    left:5%;
+    color:aqua;
+    
+   
+}
+
+.circle
+{
+   height:9%;
+   width:4%;
+   border:2px solid transparent;
+   position:absolute;
+   top:62%;
+   left:5%;
+   border-radius: 90%;
+   background-image: linear-gradient( #42455a, #42455a),radial-gradient(circle at top left, #fd00da, #19d7f8);
+   background-origin: border-box;
+   background-clip:content-box,border-box;
+
+    
+}
+
+.circle .fa-duotone
+{
+    position:absolute;
+    top:35%;
+    left:43%;
+    font-size:20px;
+     color:white;
+    
+    
+}
+
+.small-text
+{
+    position:absolute;
+    top:65%;
+    left:10%;
+    font-size:20px;
+    color:cornflowerblue;
+    text-transform: uppercase;
+}
+
+.small-text:hover
+{
+    text-decoration: underline;
+}
+
+.icon-footer
+{
+   height:18%;
+   width:40%;
+   border:2px solid black;
+   position:absolute;
+   bottom:1px;
+   background-image:linear-gradient(to left, #fd00da, #19d7f8);
+   border:2px solid transparent;
+   
+
+
+}
+
+.share-icon
+{
+    background-color: transparent;
+    height:70px;
+    width:75px;
+   position:absolute;
+    top:49px;
+    left:15px;
+   
+    
+}
+
+.share-icon .fa-sharp
+{
+    background: transparent;
+    color:white;
+    text-transform: uppercase;
+    font-size:25px;
+    position:relative;
+    left:20px;
+    
+    
+}
+.share-icon .fa-sharp:hover
+{
+    transform:scale(1.3);
+    transition:all 0.3s ease-in-out;
+}
+
+
+ .share-text
+{
+  position:absolute;
+  top:40px;
+  background-color: transparent;
+  left:5px;
+  font-size:13px;
+  text-transform: uppercase;
+  color:rgb(255, 255, 255);
+  
+
+}
+
+
+.news-icon
+{
+background-color: transparent;
+    height:70px;
+    width:15%;
+   position:absolute;
+    top:49px;
+    left:25%;
+    
+
+}
+
+.news-icon .fa-light
+{
+background: transparent;
+    color:white;
+    text-transform: uppercase;
+    font-size:25px;
+    position:relative;
+    left:35%;
+    
+
+}
+
+.news-icon .fa-light:hover
+{
+     transform:scale(1.3);
+    transition:all 0.3s ease-in-out;
+}
+
+.news-text
+{
+  position:absolute;
+  top:40px;
+  background-color: transparent;
+  left:9px;
+  font-size:13px;
+  text-transform: uppercase;
+  color:white;
+}
+
+.settings-icon
+{
+
+background-color: transparent;
+height:70px;
+width:15%;
+position:absolute;
+top:49px;
+left:55%;
+
+
+
+}
+
+.settings-icon .fa-sharp
+{
+    background: transparent;
+    color:white;
+    text-transform: uppercase;
+    font-size:25px;
+    position:relative;
+    left:35%;
+    
+}
+.settings-icon .fa-sharp:hover
+{
+    transform:scale(1.3);
+    transition:all 0.3s ease-in-out;
+}
+
+
+.settings-text
+{
+  position:absolute;
+  top:40px;
+  background-color: transparent;
+  left:15px;
+  font-size:13px;
+  text-transform: uppercase;
+  color:white;
+}
+
+
+.wallet-icon
+{
+background-color: transparent;
+height:70px;
+width:15%;
+position:absolute;
+top:49px;
+left:80%;
+
+    
+}
+
+.wallet-icon .fa-solid 
+{
+
+     background: transparent;
+    color:white;
+    text-transform: uppercase;
+    font-size:25px;
+    position:relative;
+    left:35%;
+    
+
+}
+.wallet-icon .fa-solid:hover 
+{
+    transform:scale(1.3);
+    transition:all 0.3s ease-in-out;
+}
+
+
+.wallet-text
+{
+    position:absolute;
+  top:40px;
+  background-color: transparent;
+  left:20%;
+  font-size:13px;
+  text-transform: uppercase;
+  color:white;
+}
+
+.last-section
+{
+   height:116%;
+   width:139%;
+   position:absolute;
+   top:-27px;
+   background-image:linear-gradient(to right, #c43c5e, #0950d4b7);
+   border:2px solid transparent; 
+   left:110%;
+
+}
+
+.last-section1
+{
+    height:160px;
+    width:150px;
+    
+    background-color:transparent;
+    position:absolute;
+    left:5%;
+    top:5%;
+
+}
+
+.company
+{
+   height:20px;
+   width:25%;
+   background-color: transparent;
+   color:white;
+   position:relative;
+   left:15px;
+   transition:0.3s ease-in-out;
+   font-weight: bold;
+   padding-bottom:5px;  
+
+}
+
+
+
+.li1 
+{
+    height:110px;
+    width:100%;
+    
+    position:relative;
+    top:5px;
+    background-color: transparent;
+}
+ul{
+    background: transparent;
+}
+.li1 ul li{
+line-height:35px;
+list-style-type: none;
+background-color: transparent;
+position:relative;
+left:15px;
+font-weight:bold;
+color:rgb(0, 0, 0);
+
+}
+
+.li1 ul li:hover
+{
+    left:27px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+
+}
+
+.last-section2
+{
+    height:160px;
+    width:152px;
+   
+    background-color:transparent;
+    position:absolute;
+    left:30%;
+    top:5%;
+
+}
+
+.get-help
+{
+   height:28px;
+   width:50%;
+   background-color: transparent;
+   color:white;
+   position:relative;
+   left:15px;
+   transition:0.3s ease-in-out;
+   font-weight: bold;
+   padding-bottom:5px;  
+
+}
+
+.li2 
+{
+    height:110px;
+    width:100%;
+    
+    position:relative;
+    top:1px;
+    background-color: transparent;
+}
+ul{
+    background: transparent;
+}
+
+.li2 ul li{
+line-height:35px;
+list-style-type: none;
+background-color: transparent;
+position:relative;
+left:25px;
+font-weight:bold;
+}
+
+.li2 ul li:hover
+{
+    left:35px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+
+}
+
+
+.last-section3
+{
+    height:160px;
+    width:152px;
+    
+    background-color:transparent;
+    position:absolute;
+    left:55%;
+    top:5%;
+
+}
+
+.online-shop
+{
+   height:28px;
+   width:70%;
+   background-color: transparent;
+   color:white;
+   position:relative;
+   left:27px;
+   transition:0.3s ease-in-out;
+   font-weight: bold;
+   padding-bottom:5px;  
+
+}
+
+.li3
+{
+    height:110px;
+    width:100%;
+    position:relative;
+    top:1px;
+    background-color: transparent;
+}
+ul{
+    background: transparent;
+}
+
+.li3 ul li{
+line-height:35px;
+list-style-type: none;
+background-color: transparent;
+position:relative;
+left:30px;
+font-weight:bold;
+
+}
+
+.li3 ul li:hover
+{
+    left:38px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+
+}
+
+.last-section4
+{
+    height:160px;
+    width:250px;
+    
+    background-color:transparent;
+    position:absolute;
+    left:70%;
+    top:5%;
+
+}
+
+.follow-us
+{
+   height:40px;
+   width:70%;
+   background-color: transparent;
+   color:white;
+   position:relative;
+   left:50px;
+   transition:0.3s ease-in-out;
+   padding-bottom:5px;  
+   font-weight: bold;
+
+}
+
+.li4
+{
+    height:60px;
+    width:100%;
+  
+    position:relative;
+    top:1px;
+    background-color: transparent;
+}
+
+ .li4 
+{
+    font-size:30px;
+    position:relative;
+    left:10px;
+    background: transparent;
+    display:flex;
+    justify-content: space-between;
+}
+
+.fa-brands
+{
+ background:transparent;
+}
+.fb 
+{
+background:transparent;
+}
+
+.twit
+{
+background:transparent;
+}
+
+.insta
+{
+background:transparent;
+}
+
+.linkin
+{
+background:transparent;
+}
+.fa-brands:hover
+{
+    color:white;
+}
+
+
+
